@@ -1,6 +1,6 @@
 // broad overview:
-// * timer to invoke method checkBuild() every 5s
-// * post to TeamCity api for http://teamcity-path.com/httpAuth/app/rest/buildTypes/id:someid/builds?count=1
+// timer to invoke method checkBuild() every 5s
+// post to TeamCity api for http://teamcity-path.com/httpAuth/app/rest/buildTypes/id:someid/builds?count=1
 // inspect response for "status":"SUCCESS"
 // if success set GPIO2 HIGH for GREEN
 // else set GPIO2 LOW for RED (default on startup)
